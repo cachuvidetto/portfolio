@@ -53,9 +53,16 @@ export default function Navbar() {
         }`}
       >
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-2.5 group cursor-pointer">
+        <a
+          href="#home"
+          className="flex items-center gap-2.5 group cursor-pointer"
+        >
           <div className="w-8 h-8 rounded-xl overflow-hidden shadow-sm group-hover:scale-105 transition-transform flex items-center justify-center shrink-0">
-            <img src="/logo.svg" alt="Alaa Zayood Logo" className="w-full h-full object-contain" />
+            <img
+              src="/logo.svg"
+              alt="Alaa Zayood Logo"
+              className="w-full h-full object-contain"
+            />
           </div>
           <div className="flex items-center gap-1">
             <span className="text-base font-bold tracking-tight">Alaa</span>
@@ -93,11 +100,21 @@ export default function Navbar() {
           {/* Theme Toggle */}
           <button
             onClick={toggleTheme}
-            aria-label={theme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}
+            aria-label={
+              theme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"
+            }
             className="p-2 rounded-lg border border-[var(--color-border)] text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)]/30 transition-all flex items-center justify-center cursor-pointer"
-            title={theme === "dark" ? "الوضع النهاري / Light Mode" : "الوضع الليلي / Dark Mode"}
+            title={
+              theme === "dark"
+                ? "الوضع النهاري / Light Mode"
+                : "الوضع الليلي / Dark Mode"
+            }
           >
-            {theme === "dark" ? <HiSun className="text-base" /> : <HiMoon className="text-base" />}
+            {theme === "dark" ? (
+              <HiSun className="text-base" />
+            ) : (
+              <HiMoon className="text-base" />
+            )}
           </button>
 
           {/* Language Toggle */}
@@ -125,7 +142,11 @@ export default function Navbar() {
             aria-label="Toggle theme"
             className="p-1.5 rounded-lg border border-[var(--color-border)] text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-all"
           >
-            {theme === "dark" ? <HiSun className="text-sm" /> : <HiMoon className="text-sm" />}
+            {theme === "dark" ? (
+              <HiSun className="text-sm" />
+            ) : (
+              <HiMoon className="text-sm" />
+            )}
           </button>
 
           <button

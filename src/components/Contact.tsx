@@ -7,7 +7,7 @@ import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { useLang } from "@/lib/LangContext";
 
 const socials = [
-  { icon: SiGithub, label: "GitHub", href: "https://github.com/alaaazayoud-debug" },
+  { icon: SiGithub, label: "GitHub", href: "https://github.com/cachuvidetto" },
   { icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/in/alaa-zayood-b41316352" },
   { icon: FaWhatsapp, label: "WhatsApp", href: "https://wa.me/963966262458" },
   { icon: HiMail, label: "Email", href: "mailto:alaazayood@gmail.com" },

@@ -29,7 +29,7 @@ export default function Projects() {
       tags: ["React", "Vite", "Tailwind CSS", "Vercel"],
       icon: HiLightningBolt,
       demoUrl: "https://menu-app-three-ecru.vercel.app/",
-      githubUrl: "https://github.com/alaaazayoud-debug/menu-app",
+      githubUrl: "https://github.com/cachuvidetto/menu-app",
       badge: "Vercel Live",
     },
     {
@@ -39,7 +39,7 @@ export default function Projects() {
       tags: ["React", "Vercel", "Tailwind CSS", "Corporate"],
       icon: HiCube,
       demoUrl: "https://daratia.vercel.app/",
-      githubUrl: "https://github.com/alaaazayoud-debug/daratia-website",
+      githubUrl: "https://github.com/cachuvidetto/daratia-website",
       badge: "Vercel Live",
     },
     {
@@ -49,7 +49,7 @@ export default function Projects() {
       tags: ["Flutter", "Dart", "Appwrite", "Mobile App", "BaaS"],
       icon: HiDeviceMobile,
       demoUrl: undefined,
-      githubUrl: "https://github.com/alaaazayoud-debug/sanad-mobile-app",
+      githubUrl: "https://github.com/cachuvidetto/sanad-mobile-app",
       badge: "Mobile App",
     },
     {
@@ -60,7 +60,7 @@ export default function Projects() {
       icon: HiServer,
       demoUrl: undefined,
       videoUrl: "https://youtu.be/n5d-QqQrZGw",
-      githubUrl: "https://github.com/alaaazayoud-debug/bike_shop_manager",
+      githubUrl: "https://github.com/cachuvidetto/bike_shop_manager",
       badge: "Desktop App",
     },
     {
@@ -70,7 +70,7 @@ export default function Projects() {
       tags: ["Web", "Corporate", "Frontend", "UI/UX"],
       icon: HiChartBar,
       demoUrl: undefined,
-      githubUrl: "https://github.com/alaaazayoud-debug/ezar_group_website",
+      githubUrl: "https://github.com/cachuvidetto/ezar_group_website",
       badge: "Corporate Web",
     },
   ];
@@ -132,7 +132,7 @@ export default function Projects() {
               </a>
 
               <a
-                href="https://github.com/alaaazayoud-debug/viaitica-project"
+                href="https://github.com/cachuvidetto/viaitica-project"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-medium border border-[var(--color-border)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] hover:border-[var(--color-border-hover)] transition-all bg-[var(--color-bg-card)]"
